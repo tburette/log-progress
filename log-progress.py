@@ -1,6 +1,9 @@
+#! /usr/bin/env python
 import argparse
 import datetime
 import time
+import re
+import sys
 
 
 def delta_since(start_delta):
