@@ -28,6 +28,8 @@ def parse_args():
     parser.add_argument(
         'file',
         type=argparse.FileType('a+'),
+        nargs='?',
+        default='out.log',
         help="File to write to")
     return parser.parse_args()
 
